@@ -1,0 +1,42 @@
+{
+    "metadata": {
+        "uid": "demexco",
+        "info": "Example demo of canopen",
+        "version": "1"
+    },
+    "groups": [
+        {
+            "uid": "demexco",
+            "info": "Example demo of canopen",
+            "verbs": [
+                {
+                    "uid": "info",
+                    "info": "Get binding info",
+                    "verb": "info"
+                },
+                {
+                    "uid": "hello",
+                    "info": "Echoes the input argument",
+                    "verb": "hello",
+                    "sample": [
+                        "Bob",
+                        42
+                    ]
+                },
+                {
+                    "uid": "sum",
+                    "verb": "sum",
+                    "info": "Sums the input arguments",
+                    "sample": [
+                        [
+                            1,
+                            2,
+                            3,
+                            10
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

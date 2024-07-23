@@ -11,30 +11,23 @@
             "verbs": [
                 {
                     "uid": "info",
-                    "info": "Get binding info",
-                    "verb": "info"
+                    "verb": "info",
+                    "info": "Get binding info"
                 },
                 {
-                    "uid": "hello",
-                    "info": "Echoes the input argument",
-                    "verb": "hello",
-                    "sample": [
-                        "Bob",
-                        42
-                    ]
+                    "uid": "get",
+                    "verb": "get",
+                    "info": "get a set of canopen values"
                 },
                 {
-                    "uid": "sum",
-                    "verb": "sum",
-                    "info": "Sums the input arguments",
-                    "sample": [
-                        [
-                            1,
-                            2,
-                            3,
-                            10
-                        ]
-                    ]
+                    "uid": "add",
+                    "verb": "add",
+                    "info": "add an event generation for set of canopen values"
+                },
+                {
+                    "uid": "sub",
+                    "verb": "sub",
+                    "info": "remove an event generation"
                 }
             ]
         }

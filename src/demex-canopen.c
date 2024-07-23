@@ -468,6 +468,7 @@ int make_json_reply(afb_data_t *jval, afb_data_t dreq, afb_data_t dval)
 				free(buffer);
 				return AFB_ERRNO_OUT_OF_MEMORY;
 			}
+			buffer = tmp;
 			dcnt = szbuf - pos;
 		}
 		/* format the value */
